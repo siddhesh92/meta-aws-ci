@@ -42,7 +42,7 @@ export class PrerequisitesStack extends Stack {
     // Used by: Pipeline stack, to monitor changes and modify the pipeline
     // Notes: this repository must exist and be usable by your token described above
     public static readonly GithubCdkRepositoryName: string = "meta-aws-ci";
-    public static readonly GithubCdkRepositoryOwner: string = "aws";
+    public static readonly GithubCdkRepositoryOwner: string = "siddhesh92";
     public static readonly GithubCdkRepositoryBranch: string = "master";
     // If the CDK package isn't at the top level of the repository, enter the subdirectory here.
     public static readonly GithubCdkSubdirectory: string = "cdk";
