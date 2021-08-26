@@ -58,7 +58,7 @@ export class PrerequisitesStack extends Stack {
     // Used by: Base Image builder, to build a container for YP builds.
     // Notes: this repository must exist and be usable by your token described above
     public static readonly GithubBaseImageRepositoryName: string = "meta-aws-ci";
-    public static readonly GithubBaseImageRepositoryOwner: string = "aws";
+    public static readonly GithubBaseImageRepositoryOwner: string = "siddhesh92";
     public static readonly GithubBaseImageRepositoryBranch: string = "master";
     public static readonly GithubBaseImageRepositorySpecLocation: string = "buildspec/ci_image.yml";
 
